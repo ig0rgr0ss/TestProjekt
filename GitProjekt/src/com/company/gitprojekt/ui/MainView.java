@@ -2,10 +2,10 @@
 package com.company.gitprojekt.ui;
 
 import com.vaadin.ui.Alignment;
-import com.vaadin.ui.CustomComponent;
 import com.xdev.ui.XdevButton;
 import com.xdev.ui.XdevVerticalLayout;
 import com.xdev.ui.XdevView;
+import com.xdev.ui.entitycomponent.table.XdevTable;
 
 public class MainView extends XdevView {
 
@@ -26,6 +26,7 @@ public class MainView extends XdevView {
 		this.verticalLayout = new XdevVerticalLayout();
 		this.button = new XdevButton();
 		this.button2 = new XdevButton();
+		this.table = new XdevTable<>();
 	
 		this.button.setCaption("Button");
 		this.button2.setCaption("Button");
@@ -36,10 +37,10 @@ public class MainView extends XdevView {
 		this.button2.setSizeUndefined();
 		this.verticalLayout.addComponent(this.button2);
 		this.verticalLayout.setComponentAlignment(this.button2, Alignment.MIDDLE_CENTER);
-		CustomComponent verticalLayout_spacer = new CustomComponent();
-		verticalLayout_spacer.setSizeFull();
-		this.verticalLayout.addComponent(verticalLayout_spacer);
-		this.verticalLayout.setExpandRatio(verticalLayout_spacer, 1.0F);
+		this.table.setSizeFull();
+		this.verticalLayout.addComponent(this.table);
+		this.verticalLayout.setComponentAlignment(this.table, Alignment.MIDDLE_CENTER);
+		this.verticalLayout.setExpandRatio(this.table, 100.0F);
 		this.verticalLayout.setSizeFull();
 		this.setContent(this.verticalLayout);
 		this.setSizeFull();
@@ -47,6 +48,7 @@ public class MainView extends XdevView {
 
 	// <generated-code name="variables">
 	private XdevButton button, button2;
+	private XdevTable<?> table;
 	private XdevVerticalLayout verticalLayout; // </generated-code>
 
 
