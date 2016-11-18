@@ -13,6 +13,9 @@
         <XdevButton caption="Button" x:name="button">
             <x:constraints weighty="0.0" />
         </XdevButton>
+        <XdevButton caption="Button" x:name="button2">
+            <x:constraints weighty="0.0" />
+        </XdevButton>
     </XdevVerticalLayout>
 </XdevView>
 

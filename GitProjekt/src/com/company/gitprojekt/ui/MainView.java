@@ -25,12 +25,17 @@ public class MainView extends XdevView {
 	private void initUI() {
 		this.verticalLayout = new XdevVerticalLayout();
 		this.button = new XdevButton();
+		this.button2 = new XdevButton();
 	
 		this.button.setCaption("Button");
+		this.button2.setCaption("Button");
 	
 		this.button.setSizeUndefined();
 		this.verticalLayout.addComponent(this.button);
 		this.verticalLayout.setComponentAlignment(this.button, Alignment.MIDDLE_CENTER);
+		this.button2.setSizeUndefined();
+		this.verticalLayout.addComponent(this.button2);
+		this.verticalLayout.setComponentAlignment(this.button2, Alignment.MIDDLE_CENTER);
 		CustomComponent verticalLayout_spacer = new CustomComponent();
 		verticalLayout_spacer.setSizeFull();
 		this.verticalLayout.addComponent(verticalLayout_spacer);
@@ -41,7 +46,7 @@ public class MainView extends XdevView {
 	} // </generated-code>
 
 	// <generated-code name="variables">
-	private XdevButton button;
+	private XdevButton button, button2;
 	private XdevVerticalLayout verticalLayout; // </generated-code>
 
 
