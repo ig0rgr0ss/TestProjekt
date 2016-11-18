@@ -10,7 +10,7 @@ import com.xdev.ui.entitycomponent.table.XdevTable;
 
 public class MainView extends XdevView {
 	
-	private boolean m=false;
+	private boolean m=true;
 	/**
 	 * 
 	 */
