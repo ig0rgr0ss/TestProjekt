@@ -2,13 +2,15 @@
 package com.company.gitprojekt.ui;
 
 import com.vaadin.ui.Alignment;
+import com.vaadin.ui.CustomComponent;
 import com.xdev.ui.XdevButton;
 import com.xdev.ui.XdevVerticalLayout;
 import com.xdev.ui.XdevView;
 import com.xdev.ui.entitycomponent.table.XdevTable;
 
 public class MainView extends XdevView {
-
+	
+	private boolean m=false;
 	/**
 	 * 
 	 */
@@ -48,7 +50,7 @@ public class MainView extends XdevView {
 
 	// <generated-code name="variables">
 	private XdevButton button, button2;
-	private XdevTable<?> table;
+	private XdevTable<CustomComponent> table;
 	private XdevVerticalLayout verticalLayout; // </generated-code>
 
 
