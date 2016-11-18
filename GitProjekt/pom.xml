@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.company</groupId>
-	<artifactId>testprojekt</artifactId>
+	<artifactId>gitprojekt</artifactId>
 	<packaging>war</packaging>
-	<name>TestProjekt</name>
+	<name>GitProjekt</name>
 	<version>0.1.0-SNAPSHOT</version>
 	<build>
 		<resources>
@@ -72,11 +72,6 @@
 			<groupId>com.xdev-software</groupId>
 			<artifactId>xdev-server-ui</artifactId>
 			<version>3.0.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<version>1.3.176</version>
 		</dependency>
 	</dependencies>
 	<properties>

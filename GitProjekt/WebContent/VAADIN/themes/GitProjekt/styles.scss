@@ -1,9 +1,9 @@
 @import "addons.scss";
-@import "TestProjekt.scss";
+@import "GitProjekt.scss";
 
 /* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
-/* The actual styles should be defined in TestProjekt.scss */
-.TestProjekt {
+/* The actual styles should be defined in GitProjekt.scss */
+.GitProjekt {
   @include addons;
-  @include TestProjekt;
+  @include GitProjekt;
 }
